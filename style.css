@@ -47,6 +47,7 @@
     --adaptabilidade: #FF4500;
     --adaptabilidade1: #F4A460;
     --fonteadaptabilidade: #ffffff;
+    --vermelho: #FF0000;
 }
 
 header {
@@ -405,10 +406,48 @@ header {
     transform: all 2s ease;
 }
 
-#etec-botao-teste {
+#futebol-botao-teste {
     background-color: var(--azulclaro);
     color: var(--fonteadaptabilidade);
     border: 2px solid var(--fonteautogestao);
     transition: all 1s ease;
 }
 
+#basquete {
+    background: linear-gradient(to right, var(--vermelho), var(--branco));
+    color: var(--preto);
+    transform: all 2s ease;
+}
+
+#basquete-botao-teste {
+    background-color: var(--preto);
+    color: var(--fonteadaptabilidade);
+    border: 2px solid var(--fonteautogestao);
+    transition: all 1s ease;
+}
+
+#natacao {
+    background: linear-gradient(to right, var(--vermelho), var(--branco));
+    color: var(--preto);
+    transform: all 2s ease;
+}
+
+#natacao-botao-teste {
+    background-color: var(--preto);
+    color: var(--fonteadaptabilidade);
+    border: 2px solid var(--fonteautogestao);
+    transition: all 1s ease;
+}
+
+#volei {
+    background: linear-gradient(to right, var(--vermelho), var(--branco));
+    color: var(--preto);
+    transform: all 2s ease;
+}
+
+#volei-botao-teste {
+    background-color: var(--preto);
+    color: var(--fonteadaptabilidade);
+    border: 2px solid var(--fonteautogestao);
+    transition: all 1s ease;
+}
