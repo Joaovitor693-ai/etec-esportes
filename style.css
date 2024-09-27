@@ -381,7 +381,7 @@ header {
 }
 
 .etec-texto ol li {
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 10px;
 }
 
@@ -427,8 +427,8 @@ header {
 }
 
 #natacao {
-    background: linear-gradient(to right, var(--vermelho), var(--branco));
-    color: var(--preto);
+    background: linear-gradient(to right, var(--colaboracao1), var(--colaboracao1));
+    color: var(--branco);
     transform: all 2s ease;
 }
 
@@ -446,6 +446,19 @@ header {
 }
 
 #volei-botao-teste {
+    background-color: var(--preto);
+    color: var(--fonteadaptabilidade);
+    border: 2px solid var(--fonteautogestao);
+    transition: all 1s ease;
+}
+
+#atletismo {
+    background: linear-gradient(to right, var(--autogestao1), var(--autogestao1));
+    color: var(--branco);
+    transform: all 2s ease;
+}
+
+#atletismo-botao-teste {
     background-color: var(--preto);
     color: var(--fonteadaptabilidade);
     border: 2px solid var(--fonteautogestao);
