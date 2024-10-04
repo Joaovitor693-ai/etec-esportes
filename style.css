@@ -402,28 +402,38 @@ header {
 
 #futebol {
     background: linear-gradient(to right, var(--azulclaro), var(--azulclaro));
-    color: var(--fonteautogestao);
+    color: var(--branco);
     transform: all 2s ease;
 }
 
 #futebol-botao-teste {
     background-color: var(--azulclaro);
-    color: var(--fonteadaptabilidade);
+    color: var(--fonteautogestao);
     border: 2px solid var(--fonteautogestao);
     transition: all 1s ease;
+}
+
+#futebol-botao-teste:hover {
+    background-color: var(--fonteautogestao);
+    color: var(--preto);
 }
 
 #basquete {
     background: linear-gradient(to right, var(--vermelho), var(--branco));
-    color: var(--preto);
+    color: var(--branco);
     transform: all 2s ease;
 }
 
 #basquete-botao-teste {
-    background-color: var(--preto);
+    background-color: var(--vermelho);
     color: var(--fonteadaptabilidade);
     border: 2px solid var(--fonteautogestao);
     transition: all 1s ease;
+}
+
+#basquete-botao-teste:hover {
+    background-color: var(--fonteautogestao);
+    color: var(--preto);
 }
 
 #natacao {
@@ -433,23 +443,34 @@ header {
 }
 
 #natacao-botao-teste {
-    background-color: var(--preto);
+    background-color: var(--colaboracao1);
     color: var(--fonteadaptabilidade);
     border: 2px solid var(--fonteautogestao);
     transition: all 1s ease;
 }
 
-#volei {
-    background: linear-gradient(to right, var(--vermelho), var(--branco));
+#natacao-botao-teste:hover {
+    background-color: var(--fonteautogestao);
     color: var(--preto);
+}
+
+
+#volei {
+    background: linear-gradient(to right, var(--amarelo), var(--amarelo));
+    color: var(--branco);
     transform: all 2s ease;
 }
 
 #volei-botao-teste {
-    background-color: var(--preto);
+    background-color: var(--amarelo);
     color: var(--fonteadaptabilidade);
     border: 2px solid var(--fonteautogestao);
     transition: all 1s ease;
+}
+
+#volei-botao-teste:hover {
+    background-color: var(--fonteautogestao);
+    color: var(--preto);
 }
 
 #atletismo {
@@ -459,8 +480,70 @@ header {
 }
 
 #atletismo-botao-teste {
-    background-color: var(--preto);
+    background-color: var(--autogestao1);
     color: var(--fonteadaptabilidade);
     border: 2px solid var(--fonteautogestao);
     transition: all 1s ease;
+}
+
+#atletismo-botao-teste:hover {
+    background-color: var(--fonteautogestao);
+    color: var(--preto);
+}
+
+#comparacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#comparacao h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px var(--cinza);
+}
+
+#comparacao table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+#comparacao th,
+td {
+    padding: 15px;
+    text-align: left;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+#comparacao th {
+    background-color: var(--cinza);
+    color: var(--branco);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+#comparacao tbody tr {
+    background-color: var(--branco);
+    transition: 1s 0, 5 ease;
+}
+
+#comparacao tbody tr :hover {
+    background-color: var(--cinza);
+}
+
+.modalidade-tabela {
+    text-align: center;
+    font-weight: 800;
+}
+
+.esforco-tabela {
+    text-align: center;
+    font-style: italic;
 }
